@@ -1,0 +1,8 @@
+type Welcome {
+    message: String
+    user: String
+}
+type Query {
+    welcome: Welcome
+    welcomeUser(name: String): Welcome
+}
